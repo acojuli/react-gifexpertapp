@@ -17,7 +17,8 @@ const GifExpertApp = () => {
 
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h2>GIFs Search Engine</h2>
+            <p>Place the text you want in the search box and press enter. Then the app will show related GIFs.</p>
             <AddCategory setCategories={ setCategories }/>
             <hr />
 

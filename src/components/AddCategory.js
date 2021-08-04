@@ -13,11 +13,14 @@ export const AddCategory = ({ setCategories }) => {
     const handleSubmit = (e) => {
         // De esta manera prevenimos el comportamiento del formulario que actualiza todal a pagina
         e.preventDefault();
+
+        console.log('handleSubmit', inputValue );
+
         // Con trim borramos los espacios que hay antes y desp de un string
         if ( inputValue.trim().length > 2 ) {
 
             // console.log('Submit hecho')
-            setCategories( cats => [ inputValue, ...cats ] );
+            setCategories( cats => [ inputValue, ...cats, ] );
             setInputValue('');
         }
 
@@ -25,6 +28,7 @@ export const AddCategory = ({ setCategories }) => {
     
     return (
         <form onSubmit={ handleSubmit }>
+            <p> { inputValue } </p>
             <input 
                 type="text"
                 value={ inputValue }

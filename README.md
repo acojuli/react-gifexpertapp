@@ -14,6 +14,8 @@ Go to the app deployed with GitHub Pages in the following [link](https://acojuli
 
 ## Author
 
-Guido Julian Gomez
-This is my [Website](https://acojuli.com.ar)
-Connect with me on [LinkedIn](https://www.linkedin.com/in/guidojuliangomez/)
+Guido Julian Gomez.
+
+This is my [Website](https://acojuli.com.ar).
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/guidojuliangomez/).
